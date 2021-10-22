@@ -51,3 +51,9 @@
     margin-top: 16%;
     margin-left: -20%;
 }
+
+.photo_tagging_image {
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
