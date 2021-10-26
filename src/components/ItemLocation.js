@@ -4,15 +4,20 @@ import '../styles/main.css'
 
 function ItemLocation( itemData ) {
 
-    console.log(itemData['data']['classname'])
+
+    function item_found() {
+        
 
 
-return (
-    <div onClick={() => console.log(itemData['data']['name'] + ' here')} className={itemData['data']['classname']}>
+    }
 
-    </div>
-)
-}
+
+    return (
+        <div onClick={() => item_found() } className={itemData['data']['classname']}>
+
+        </div>
+    )
+    }
 
 
 export default ItemLocation

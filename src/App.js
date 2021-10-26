@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from './components/Header'
 import Footer from "./components/Footer";
 import Image from "./components/Image";
@@ -14,16 +14,18 @@ var item_three = {classname: "item_three", name: "link" }
 
 function App() {
 
+  const [items_found, setItemsFound] = useState( {'cortana': false, 'link': false, 'neo': false} )
+
 
   return (
     <div>
-    <Header />
+    <Header data={items_found} />
     <StartScreen />
     <div className="container">
       <Image />
-      <ItemLocation data={item_one} />
-      <ItemLocation data={item_two} />
-      <ItemLocation data={item_three} />
+      <ItemLocation data={item_one} setItemsFound={setItemsFound} />
+      <ItemLocation data={item_two} setItemsFound={setItemsFound}  />
+      <ItemLocation data={item_three} setItemsFound={setItemsFound} />
     </div>
     <Footer />
    </div>

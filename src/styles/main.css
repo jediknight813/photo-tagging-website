@@ -110,7 +110,7 @@
     height: 97%;
     background-color: white;
     position: fixed;
-    opacity: 60%;
+    opacity: 80%;
     z-index: 2;
 }
 
@@ -126,6 +126,7 @@
     position: fixed;
     z-index: 4;
     border-radius: 5px;
+    border: 3px solid rgb(0, 145, 255);
 }
 
 
@@ -147,4 +148,29 @@
     width: 30.1%;
     height: 8.1%;
     font-size: 62px;
+}
+
+.item_not_found {
+    width: 70px;
+    height: 60px;
+    background-color: violet;
+    border-radius: 40px;
+    border: 3px solid rgb(254, 0, 0);
+    position: relative;
+}
+
+.h1 {
+    text-align: center;
+}
+
+
+.find_item_container {
+    margin-top: 5px;
+    right: 40%;
+    grid-gap: 40px;
+    position: absolute;
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+    position: absolute;
+    text-align: center;
 }
