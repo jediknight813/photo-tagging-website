@@ -8,7 +8,7 @@ function ItemLocation( itemData ) {
 
 
 return (
-    <div onClick={() => console.log('here')} className={itemData['data']['classname']}>
+    <div onClick={() => console.log(itemData['data']['name'] + ' here')} className={itemData['data']['classname']}>
 
     </div>
 )
