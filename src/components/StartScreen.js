@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import fireBaseTesting from './firebase'
+
 
 var name_entered = false
 
@@ -10,6 +12,7 @@ function StartScreen() {
 
 
     function button_clicked() {
+        fireBaseTesting(name, 0)
         name_entered = true
         forceUpdate()
     }
