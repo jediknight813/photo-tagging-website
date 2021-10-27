@@ -13,21 +13,20 @@ var item_three = {classname: "item_three", name: "link" }
 
 
 function App() {
-
   const [items_found, setItemsFound] = useState( {'cortana': false, 'link': false, 'neo': false} )
 
 
   return (
     <div>
-    <Header data={items_found} />
-    <StartScreen />
-    <div className="container">
-      <Image />
-      <ItemLocation data={item_one} setItemsFound={setItemsFound} />
-      <ItemLocation data={item_two} setItemsFound={setItemsFound}  />
-      <ItemLocation data={item_three} setItemsFound={setItemsFound} />
-    </div>
-    <Footer />
+      <Header data={items_found} />
+      <StartScreen />
+      <div className="container">
+        <Image />
+        <ItemLocation data={item_one} setItemsFound={setItemsFound} />
+        <ItemLocation data={item_two} setItemsFound={setItemsFound}  />
+        <ItemLocation data={item_three} setItemsFound={setItemsFound} />
+      </div>
+      <Footer />
    </div>
   );
 }
