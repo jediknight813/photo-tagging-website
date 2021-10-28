@@ -186,8 +186,24 @@
 
 
 .leader_board_name_background {
-    background-color: blue;
-    position: absolute;
+    grid-template: repeat(20, 1fr) / repeat(1, 1fr);
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 12%;
+    height: 80%;
     right: 0%;
-    z-index: 10;
+    border-radius: 20px;
+    top: 11%;
+    z-index: 6;
+}
+
+.leader_board_name_background_hidden {
+    visibility: hidden;
+}
+
+.leaderboard_user_text {
+    text-align: center;
+    font-family: century-gothic;
+    font-size: 150%;
 }
