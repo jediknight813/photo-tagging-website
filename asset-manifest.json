@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/photo-tagging-website/static/css/main.f8ff9d47.chunk.css",
+    "main.js": "/photo-tagging-website/static/js/main.6b7c9144.chunk.js",
+    "main.js.map": "/photo-tagging-website/static/js/main.6b7c9144.chunk.js.map",
+    "runtime-main.js": "/photo-tagging-website/static/js/runtime-main.a3f47283.js",
+    "runtime-main.js.map": "/photo-tagging-website/static/js/runtime-main.a3f47283.js.map",
+    "static/js/2.48cfb207.chunk.js": "/photo-tagging-website/static/js/2.48cfb207.chunk.js",
+    "static/js/2.48cfb207.chunk.js.map": "/photo-tagging-website/static/js/2.48cfb207.chunk.js.map",
+    "index.html": "/photo-tagging-website/index.html",
+    "static/css/main.f8ff9d47.chunk.css.map": "/photo-tagging-website/static/css/main.f8ff9d47.chunk.css.map",
+    "static/js/2.48cfb207.chunk.js.LICENSE.txt": "/photo-tagging-website/static/js/2.48cfb207.chunk.js.LICENSE.txt",
+    "static/media/cortana.9a4350f0.png": "/photo-tagging-website/static/media/cortana.9a4350f0.png",
+    "static/media/link.19b5d958.png": "/photo-tagging-website/static/media/link.19b5d958.png",
+    "static/media/neo.e7f2c180.png": "/photo-tagging-website/static/media/neo.e7f2c180.png",
+    "static/media/photo-tagging-image.20b665e5.jpeg": "/photo-tagging-website/static/media/photo-tagging-image.20b665e5.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3f47283.js",
+    "static/js/2.48cfb207.chunk.js",
+    "static/css/main.f8ff9d47.chunk.css",
+    "static/js/main.6b7c9144.chunk.js"
+  ]
+}
