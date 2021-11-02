@@ -41,14 +41,13 @@ function Leaderboard() {
 
 
     function  DisplayUsersData() {
-        console.log(users)
         var leaderboard_list = []
 
         Object.entries(users).forEach((entry) => {
              leaderboard_list.push([entry[1]['username'], entry[1]['time']]);
              });
 
-        console.log(leaderboard_list +" leaderboard list")
+        //console.log(leaderboard_list +" leaderboard list")
 
         return (
             <div className={leader_board_classname}>

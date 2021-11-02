@@ -8,8 +8,8 @@ import './styles/main.css'
 
 
 var item_one = {classname: "item_one", name: "cortana" }
-var item_two = {classname: "item_two", name: "neo"}
-var item_three = {classname: "item_three", name: "link" }
+var item_two = {classname: "item_two", name: "link"}
+var item_three = {classname: "item_three", name: "neo" }
 
 
 function App() {
@@ -33,4 +33,3 @@ function App() {
 
 
 export default App;
-
