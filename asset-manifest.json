@@ -5,11 +5,11 @@
     "main.js.map": "/photo-tagging-website/static/js/main.40ef8a27.chunk.js.map",
     "runtime-main.js": "/photo-tagging-website/static/js/runtime-main.e9879173.js",
     "runtime-main.js.map": "/photo-tagging-website/static/js/runtime-main.e9879173.js.map",
-    "static/js/2.e944f808.chunk.js": "/photo-tagging-website/static/js/2.e944f808.chunk.js",
-    "static/js/2.e944f808.chunk.js.map": "/photo-tagging-website/static/js/2.e944f808.chunk.js.map",
+    "static/js/2.d0712127.chunk.js": "/photo-tagging-website/static/js/2.d0712127.chunk.js",
+    "static/js/2.d0712127.chunk.js.map": "/photo-tagging-website/static/js/2.d0712127.chunk.js.map",
     "index.html": "/photo-tagging-website/index.html",
     "static/css/main.f8ff9d47.chunk.css.map": "/photo-tagging-website/static/css/main.f8ff9d47.chunk.css.map",
-    "static/js/2.e944f808.chunk.js.LICENSE.txt": "/photo-tagging-website/static/js/2.e944f808.chunk.js.LICENSE.txt",
+    "static/js/2.d0712127.chunk.js.LICENSE.txt": "/photo-tagging-website/static/js/2.d0712127.chunk.js.LICENSE.txt",
     "static/media/cortana.9a4350f0.png": "/photo-tagging-website/static/media/cortana.9a4350f0.png",
     "static/media/link.19b5d958.png": "/photo-tagging-website/static/media/link.19b5d958.png",
     "static/media/neo.e7f2c180.png": "/photo-tagging-website/static/media/neo.e7f2c180.png",
@@ -17,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e9879173.js",
-    "static/js/2.e944f808.chunk.js",
+    "static/js/2.d0712127.chunk.js",
     "static/css/main.f8ff9d47.chunk.css",
     "static/js/main.40ef8a27.chunk.js"
   ]
